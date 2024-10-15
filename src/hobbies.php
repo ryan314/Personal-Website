@@ -4,7 +4,7 @@
             HOBBIES
         </title>
 
-        <link rel="stylesheet" href="hobbies.css">
+        <link rel="stylesheet" href="../assets/css/hobbies.css">
 
         <script src="https://code.jquery.com/jquery-3.7.1.js"
             integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous">
@@ -18,7 +18,7 @@
     
         <div class="hobby-learn">
             <a class="img-learn">
-                <img src="img/light_bulb.webp" alt="Learning">
+                <img src="../assets/images/light_bulb.webp" alt="Learning">
             </a>
 
             <p>
@@ -30,7 +30,7 @@
 
         <div class="hobby-chess">
             <a class="img-chess">
-                <img src="img/chess.avif" alt="Chess">
+                <img src="../assets/images/chess.avif" alt="Chess"> 
             </a>
 
             <p>
@@ -44,7 +44,7 @@
 
         <div class="hobby-basketball">
             <a class="img-basketball">
-                <img src="img/basketball.webp" alt="Basketball">
+                <img src="../assets/images/basketball.webp" alt="Basketball">
             </a>
 
             <p>
@@ -54,6 +54,6 @@
             </p>
         </div>
 
-        <script src="hobbies.js"></script>
+        <script src="../assets/scripts/hobbies.js"></script>
     </body>
 </html>

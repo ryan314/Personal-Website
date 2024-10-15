@@ -5,7 +5,7 @@
         PROJECTS
     </title>
 
-    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="../assets/css/projects.css">
 </head>
 
 <body>
@@ -16,19 +16,19 @@
     <div class="slideshow-container">
         <div class="mySlides fade">
             <div class="frac">1 / 3</div>
-            <img src="img/bg1.jpg" style="width:100%">
+            <img src="../assets/images/bg1.jpg" style="width:100%">
             <a class="text" href="https://github.com/ryan314/Self-Driving-Car-AI">Self Driving Car AI</a>
         </div>
 
         <div class="mySlides fade">
             <div class="frac">2 / 3</div>
-            <img src="img/bg2.jpg" style="width:100%">
+            <img src="../assets/images/bg2.jpg" style="width:100%">
             <a class="text" href="https://github.com/ryan314/Drawing-Recognition-AI">Drawing Recognition AI</a>
         </div>
 
         <div class="mySlides fade">
             <div class="frac">3 / 3</div>
-            <img src="img/bg3.jpg" style="width:100%">
+            <img src="../assets/images/bg3.jpg" style="width:100%">
             <a class="text" href="https://github.com/ryan314/Binary-Prediction-Neural-Network">Binary Prediction Neural Network</a>
         </div>
 

@@ -4,7 +4,7 @@
             HOME
         </title>
 
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="../assets/css/index.css">
     </head>
 
     <body>

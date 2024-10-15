@@ -1,6 +1,6 @@
 <html>
   <head>
-    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="../assets/css/navbar.css">
   </head>
   
   <body>
