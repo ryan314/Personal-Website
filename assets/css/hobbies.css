@@ -1,73 +1,108 @@
 body {
+    /* Background */
     background-image: url("../images/hobby_background.avif");
+    
+    /* Box Model */
     height: 1275px;
 }
 
 div {
+    /* Box Model */
     margin: auto;
 }
 
 .hobby-learn {
+    /* Background */
     background-color: rgb(248,250,252);
+    
+    /* Box Model */
+    padding: 20px 30px 45px 30px;
+
+    /* Positioning */
+    position: relative;
+    top: 125px; 
+
+    /* Typography */
+    font-size: 16px;
+    text-align: center;
+
+    /* Visual */
     box-shadow: 7px 7px;
     border-radius: 5px;
-    text-align: center;
-    font-size: 16px;
-
-    position: relative;
-    top: 125px;
-    padding: 20px 30px 45px 30px; 
 }
 
 .img-learn img {
+    /* Box Model */
     width: 10%;
     height: auto;
-    float: right;
-
     padding: 0px 25px 0px 25px;
+
+    /* Positioning */
+    float: right;
 }
 
 .hobby-chess {
+    /* Background */
     background-color: rgb(248,250,252);
-    box-shadow: 7px 7px;
-    border-radius: 5px;
+
+    /* Box Model */
+    padding: 25px 25px 35px 25px;
+
+    /* Positioning */
+    position: relative;
+    top: 375px;
+
+    /* Typography */
     text-align: center;
     font-size: 16px;
 
-    position: relative;
-    top: 375px;
-    padding: 25px 25px 35px 25px;
+    /* Visual */
+    box-shadow: 7px 7px;
+    border-radius: 5px;
 }
 
 .img-chess img {
+    /* Box Model */
     width: 10%;
     height: auto;
-    float: left;
-
     padding: 0px 25px 0px 0px;
+
+    /* Positioning */
+    float: left;
 }
 
 .hobby-basketball {
+    /* Background */
     background-color: rgb(248,250,252);
-    box-shadow: 7px 7px;
-    border-radius: 5px;
+    
+    /* Box Model */
+    padding: 25px 0px 50px 25px;
+
+    /* Positioning */
+    position: relative;
+    top: 625px;
+
+    /* Typography */
     text-align: center;
     font-size: 16px;
 
-    position: relative;
-    top: 625px;
-    padding: 25px 0px 50px 25px;
+    /* Visual */
+    box-shadow: 7px 7px;
+    border-radius: 5px;
 }
 
 .img-basketball img {
+    /* Box Model */
     width: 10%;
     height: auto;
-    float: right;
-
     padding: 0px 25px 0px 25px;
+
+    /* Positioning */
+    float: right;
 }
 
 .highlight {
+    /* Background */
     background-color: rgb(240, 233, 184);
 }
 
@@ -75,12 +110,14 @@ div {
     .hobby-learn,
     .hobby-chess,
     .hobby-basketball {
+        /* Box Model */
         width: 75%;
     }
 
     .img-learn img,
     .img-chess img,
     .img-basketball img {
+        /* Box Model */
         width: 10%;
         height: auto;
     }
@@ -90,6 +127,7 @@ div {
     .img-learn img,
     .img-chess img,
     .img-basketball img {
+        /* Box Model */
         width: 10%;
         height: auto;
     }

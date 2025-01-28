@@ -1,81 +1,120 @@
 body {
+    /* Background */
     background-image: url("../images/projects_background.avif");
 }
 
 .slideshow-container {
+    /* Box Model */
     max-width: 1000px;
     margin: auto;
 
+    /* Positioning */
     position: relative;
     top: 150px;
 }
 
 .prev,
 .next {
-    cursor: pointer;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
+    /* Animations / Transitions */
     transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
 
-    position: absolute;
-    top: 50%;
+    /* Box Model */
     width: auto;
     padding: 16px;
     margin-top: -22px;
+
+    /* Miscellaneous */
+    user-select: none;
+
+    /* Positioning */
+    position: absolute;
+    top: 50%;
+
+    /* Typography */
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+
+    /* Visual */
+    cursor: pointer;
+    border-radius: 0 3px 3px 0;
 }
 
 .next {
+    /* Positioning */
     right: 0;
+
+    /* Visual */
     border-radius: 3px 0 0 3px;
 }
 
 .prev:hover,
 .next:hover {
+    /* Background */
     background-color: rgba(11, 10, 10, 0.8);
 }
 
 .text {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #f2f2f2;
-    font-size: 18px;
+    /* Box Model */
     padding: 12px 8px;
+    
+    /* Positioning */
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0);
     top: 75%;
+
+    /* Typography */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #f2f2f2;
+    font-size: 18px;
 }
 
 .frac {
+    /* Typography */
     color: #f2f2f2;
     font-size: 12px;
+    
+    /* Box Model */
     padding: 8px 12px;
+
+    /* Positioning */
     position: absolute;
     top: 0;
 }
 
 .dot {
-    cursor: pointer;
+    /* Animations / Transitions */
+    transition: background-color 0.6s ease;
+
+    /* Background */
+    background-color: #bbb;
+
+    /* Box Model */
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
 
+    /* Flexbox / Grid */
+    display: inline-block;
+
+    /* Positioning */
     position: relative;
     top: 150px;
+
+    /* Visual */
+    cursor: pointer;
+    border-radius: 50%;
 }
 
 .active,
 .dot:hover {
+    /* Background */
     background-color: #717171;
 }
 
 .fade {
+    /* Animations / Transitions */
     animation-name: fade;
     animation-duration: 1.2s;
 }
@@ -94,6 +133,7 @@ body {
     .prev,
     .next,
     .text {
+        /* Typography */
         font-size: 12px;
     }
 }
@@ -102,6 +142,7 @@ body {
     .prev,
     .next,
     .text {
+        /* Typography */
         font-size: 18px;
     }
 }
